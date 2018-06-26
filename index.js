@@ -1,3 +1,12 @@
+
+let renderSearchResult = (result) => {
+  return `
+  <div>
+  <h2>
+  
+  `
+}
+
 let renderSearchResults = (data) => data.items.map(result=>renderSearchResult(result))
 
 let searchRepositories = () => {
