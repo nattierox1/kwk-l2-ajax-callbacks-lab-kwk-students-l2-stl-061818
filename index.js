@@ -4,7 +4,7 @@ let renderSearchResult = (result) => {
   <div>
   <h2><a href="${result.html_url}">${result.name}</a>
   </h2>
-  <p><a href="#" data-repository= "${result.name}" data-owner= "${result.owner.login}" onclick = "showCommits(this)"></a>
+  <p><a href="#" data-repository= "${result.name}" data-owner= "${result.owner.login}" onclick = "showCommits(this)">showCommits</a>
   </p>
   `
 }
