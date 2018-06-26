@@ -1,8 +1,7 @@
 $(document).ready(function (){
 });
-function searchRepositories (searchTerms) {
-  $('#getsearchTerms').click; 
-}
+let searchRepositories = (result);
+
 
 function showCommits () {
   
