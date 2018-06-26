@@ -1,5 +1,5 @@
 $(document).ready(function (){
 });
-function searchRepositories (click) {
+function searchRepositories (searchTerms) {
   
 }
