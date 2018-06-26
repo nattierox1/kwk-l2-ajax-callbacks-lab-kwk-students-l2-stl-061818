@@ -1,6 +1,8 @@
 $(document).ready(function (){
 });
-let searchRepositories = (result);
+let searchRepositories = () => {
+  const searchTerms = $()
+}
 
 
 function showCommits () {
