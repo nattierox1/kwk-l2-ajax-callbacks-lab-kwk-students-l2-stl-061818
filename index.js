@@ -1,3 +1,5 @@
 $(document).ready(function (){
 });
-function searchRepositories
+function searchRepositories (searchTerms) {
+  
+}
