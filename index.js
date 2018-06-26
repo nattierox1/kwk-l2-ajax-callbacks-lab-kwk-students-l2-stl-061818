@@ -1,5 +1,5 @@
-$(document).ready(function (){
-});
+let renderSearchResults = (data) => data.items.map(result=>renderSearchResult(result))
+
 let searchRepositories = () => {
   const searchTerms = $('#searchTerms').val()
   $.get(`https://api.github.com/search/repositories?q=${searchTerms}`,data=>{
@@ -12,3 +12,7 @@ let searchRepositories = () => {
 function showCommits () {
   
 }
+
+
+$(document).ready(function (){
+});
