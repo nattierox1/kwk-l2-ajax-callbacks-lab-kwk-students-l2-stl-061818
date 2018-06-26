@@ -1,7 +1,8 @@
 $(document).ready(function (){
 });
 let searchRepositories = () => {
-  const searchTerms = $('#searchTerms')
+  const searchTerms = $('#searchTerms').val()
+  $(.get)
 }
 
 
